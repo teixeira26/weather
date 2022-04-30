@@ -1,6 +1,5 @@
-const venom = require('venom-bot');
-const cron = require('node-cron');
-const axios = require('axios')
+import venom from 'venom-bot';
+import cron from 'node-cron';
 
 venom
   .create({
